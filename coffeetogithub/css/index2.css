@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+.banner nav{
+    background-color: rgb(233, 188, 120);
+    padding: 10px;
+}
+.banner nav a{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+.banner nav a:hover{
+    background-color: rgb(95, 68, 12);
+}
+.intro{
+    background-color: rgb(177, 177, 177);
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+    margin: auto;
+}
+.intro h1{
+    font-size: 36px;
+    padding-top: 5px;
+    color: rgb(70, 115, 116);
+}
+.intro p{
+    font-size: 24px;
+    padding-bottom: 5px;
+    color: rgb(24, 38, 87);
+}
+.itemgroup{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+.item{
+    width: 100%;
+    max-width: 1400px;
+    text-align: center;
+}
+.item img{
+    width: 100%;
+    height: 300px;
+}
+.item h2{
+    padding-top: 5px;
+    color: rgb(70, 115, 116);
+}
+.item p{
+    padding-bottom: 5px;
+    color: rgb(24, 38, 87);
+}
+.cat{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(244, 241, 168);
+}
+.catintro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.catintro h2{
+    color: rgb(70, 115, 116); 
+}
+.catintro p{
+    color: rgb(24, 38, 87);
+}
+.footer{
+    width: 100%;
+    max-width: 1400px;
+    background-color: rgb(165, 162, 162);
+    margin: auto;
+    text-align: center;
+}
+.footer p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}

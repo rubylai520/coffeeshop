@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.banner img{
+    widows: 100%;
+    height: 400px;
+}
+.banner nav{
+    background-color: rgb(226, 186, 106);
+    padding: 10px;
+}
+.banner nav a{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+.banner nav a:hover{
+    background-color: rgb(98, 61, 132);
+}
+.skill{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+}
+.skill img{
+    width: 50%;
+    height: 400px;
+}
+.skill .skilltext{
+    width: 50%;
+    background-color: rgb(255, 241, 196);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+.skill .skilltext p{
+    font-size: 20px;
+}
+.salegroup{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+}
+.saleitem{
+    text-align: center;
+}
+.beansale h2{
+    /* width: 200px; */
+    max-width: 1400px;
+    text-align: center;
+    background-color: darkkhaki;    
+    margin: auto;
+}
+.saleitem img{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    background-color: rgb(171, 171, 171);
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}

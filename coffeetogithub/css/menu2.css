@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+}
+.banner nav{
+    background-color: rgb(233, 188, 120);
+    padding: 10px;
+}
+.banner nav a{
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+.banner nav a:hover{
+    background-color: rgb(95, 68, 12);
+}
+.menugroup{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+.item{
+    margin: 10px;
+    text-align: center;
+}
+.item img{
+    width: 100%;
+    height: 200px;
+}
+.prcoffe{
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.pritem1,.pritem2,.pritem3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pritem1{
+    align-items: self-end;
+    background-color: rgb(230, 193, 146);
+    padding-right: 20px;
+}
+.pritem2{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.pritem3{
+    align-items: self-start;
+    background-color: rgb(230, 193, 146);
+    padding-left: 20px;
+}
+.pritem2 img{
+    width: 50%;
+}
+.footer{
+    width: 100%;
+    max-width: 1400px;
+    background-color: rgb(165, 162, 162);
+    margin: auto;
+    text-align: center;
+}
+.footer p{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
